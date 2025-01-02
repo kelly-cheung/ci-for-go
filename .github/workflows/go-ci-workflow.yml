@@ -37,7 +37,7 @@ jobs:
           staticcheck-${{ runner.os }}-
 
     - name: Staticcheck
-      uses: dominikh/staticcheck-action@v1.4.0 # Updated to latest version if necessary
+      uses: dominikh/staticcheck-action@v1.3.0 # Updated to latest version if necessary
 
     - name: Build
       run: |
